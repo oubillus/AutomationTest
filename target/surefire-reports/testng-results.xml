@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="60665" started-at="2018-07-18T09:15:43Z" finished-at="2018-07-18T09:16:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@32e6e9c3]" name="feature" class="TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Ebay Store list results with filters search" duration-ms="60665" started-at="2018-07-18T09:15:43Z" finished-at="2018-07-18T09:16:43Z">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@32e6e9c3]" name="setUpClass" is-config="true" duration-ms="182" started-at="2018-07-18T04:15:43Z" finished-at="2018-07-18T04:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@32e6e9c3]" name="feature" duration-ms="60372" started-at="2018-07-18T04:15:43Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-18T04:16:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EbayStore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@32e6e9c3]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2018-07-18T04:16:43Z" finished-at="2018-07-18T04:16:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Ebay Store list results with filters search -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
